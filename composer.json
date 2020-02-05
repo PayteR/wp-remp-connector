@@ -1,0 +1,14 @@
+{
+    "name": "payter/wp-remp-user-helper",
+    "description": "WP plugin, helper for retrievie of REMP CRM user data",
+    "type": "wordpress-plugin",
+    "require": {
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "authors": [
+        {
+            "name": "Peter PayteR Gašparík",
+            "email": "payter86@gmail.com"
+        }
+    ]
+}
