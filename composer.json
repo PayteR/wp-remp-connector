@@ -2,7 +2,9 @@
     "name": "payter/wp-remp-user-helper",
     "description": "WP plugin, helper for retrievie of REMP CRM user data",
     "type": "wordpress-plugin",
+    "license": "MIT",
     "require": {
+        "php": ">=7.1.0",
         "guzzlehttp/guzzle": "~6.0"
     },
     "authors": [
