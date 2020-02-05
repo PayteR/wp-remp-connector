@@ -12,4 +12,6 @@ If you use [Bedrock](https://github.com/roots/bedrock) WP installation, please i
 composer require payter/wp-remp-user-helper 
 ```
 
+## Configuration
+
 

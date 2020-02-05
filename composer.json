@@ -1,16 +1,23 @@
 {
-    "name": "payter/wp-remp-user-helper",
-    "description": "WP plugin, helper for retrievie of REMP CRM user data",
-    "type": "wordpress-plugin",
-    "license": "MIT",
-    "require": {
-        "php": ">=7.1.0",
-        "guzzlehttp/guzzle": "~6.0"
-    },
-    "authors": [
-        {
-            "name": "Peter PayteR Gašparík",
-            "email": "payter86@gmail.com"
-        }
-    ]
+  "name": "payter/wp-remp-user-helper",
+  "description": "WP plugin, helper for retrievie of REMP CRM user data",
+  "type": "wordpress-plugin",
+  "license": "MIT",
+  "version": "0.1.0",
+  "keywords": [
+    "REMP",
+    "WP",
+    "Plugin",
+    "CRM"
+  ],
+  "require": {
+    "php": ">=7.1.0",
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "authors": [
+    {
+      "name": "Peter PayteR Gašparík",
+      "email": "payter86@gmail.com"
+    }
+  ]
 }
