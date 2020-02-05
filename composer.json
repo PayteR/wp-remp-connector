@@ -1,5 +1,5 @@
 {
-  "name": "payter/wp-remp-user-helper",
+  "name": "payter/wp-remp-connector",
   "description": "WP plugin, helper for retrievie of REMP CRM user data",
   "type": "wordpress-plugin",
   "license": "MIT",
