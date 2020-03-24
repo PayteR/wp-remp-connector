@@ -93,3 +93,16 @@ function remp_user_is_premium()
     remp_cache_set(REMP_USER_KEY_PREMIUM, $is_premium);
     return $is_premium;
 }
+
+/**
+ * Get last subscription code
+ *
+ * @return bool|string
+ */
+function remp_user_subscription_code() {
+    if(!remp_user_is_premium()) {
+        return false;
+    }
+    $subscriptions = remp_user_get_subscriptions();
+    return $subscriptions[0]->code;
+}
