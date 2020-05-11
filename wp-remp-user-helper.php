@@ -35,7 +35,8 @@ if(!defined('REMP_N_VERSION')) define( 'REMP_N_VERSION', 'n_version' );
 
 // url paths constants
 if(!defined('REMP_URL_SUBSCRIPTION')) define( 'REMP_URL_SUBSCRIPTION', '/subscriptions/subscriptions/new' );
-if(!defined('REMP_URL_PROFILE')) define( 'REMP_URL_PROFILE', '/invoices/invoices/invoice-details' );
+if(!defined('REMP_URL_PAYMENTS')) define( 'REMP_URL_PAYMENTS', '/payments/payments/my' );
+if(!defined('REMP_URL_PROFILE')) define( 'REMP_URL_PROFILE', '/invoice/invoices/invoice-details' );
 if(!defined('REMP_URL_LOGIN')) define( 'REMP_URL_LOGIN', '/sign/in/' );
 
 // cache prefix constants
