@@ -3,7 +3,7 @@
   "description": "WP plugin, helper for retrievie of REMP CRM user data",
   "type": "wordpress-plugin",
   "license": "MIT",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "keywords": [
     "REMP",
     "WP",
